@@ -6,8 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>ATT-FLAG</title>
         <meta name="description" content="">
+        <link rel="manifest" href="/manifest.json">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -17,12 +18,18 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        
+    <h1 id="mensagem">AVAILABLE</h1>        
     <script type="text/javascript">
         window.onclick = function() {
-            var elemento = document.querySelector("body");
-            if(elemento.style.backgroundColor == "red") elemento.style.backgroundColor = "green";
-            else elemento.style.backgroundColor = "red";
+            var fundo = document.querySelector("body");
+
+            if(fundo.style.backgroundColor == "red") {
+                fundo.style.backgroundColor = "#7CE577";
+                document.getElementById("mensagem").innerHTML = "AVAILABLE";
+            } else {
+                fundo.style.backgroundColor = "red";
+                document.getElementById("mensagem").innerHTML = "BUSY";
+            } 
         }
     </script>
     

@@ -6,9 +6,7 @@ html {
     line-height: 1.4;
 }
 
-body {
-    background: green;
-}
+body 
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -19,6 +17,8 @@ body {
     background: #b3d4fc;
     text-shadow: none;
 }
+
+
 
 hr {
     display: block;

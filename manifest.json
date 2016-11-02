@@ -1,0 +1,20 @@
+{
+  "name": "att-flag",
+  "short_name": "att-flag",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffc107",
+  "background_color": "#ffc107",
+  "icons": [
+    {
+      "src": "img/manifest/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/manifest/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

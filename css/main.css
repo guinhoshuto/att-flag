@@ -6,7 +6,17 @@ html {
     line-height: 1.4;
 }
 
-body 
+body{
+    background: #7CE577;
+}
+
+h1{
+    text-align:center;
+    margin: auto;
+    margin-top: 20%;
+    opacity: 0.4;
+    font-size: 5em;
+}
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -17,8 +27,6 @@ body
     background: #b3d4fc;
     text-shadow: none;
 }
-
-
 
 hr {
     display: block;
